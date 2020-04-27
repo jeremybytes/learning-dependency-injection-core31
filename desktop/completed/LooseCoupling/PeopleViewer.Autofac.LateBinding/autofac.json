@@ -1,0 +1,14 @@
+{
+  "defaultAssembly": "PersonReader.Service",
+  "components": [
+    {
+      "type": "PersonReader.Service.ServiceReader",
+      "services": [
+        {
+          "type": "Common.IPersonReader, Common"
+        }
+      ],
+      "injectionProperties": false
+    }
+  ]
+}
